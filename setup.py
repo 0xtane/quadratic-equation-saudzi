@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'quadratic-equation-saudzi',         
-  packages = ['quadratic-equation-saudzi'],   
-  version = '0.3',      
+  name = 'quadratic_equation_saudzi',         
+  packages = ['quadratic_equation_saudzi'],   
+  version = '0.4',      
   license='MIT',       
   description = 'just a simple tool to solve quadratic equations',  
   author = 'saba udzilauri',                  
   author_email = 'sabaxbox1@gmail.com',     
   url = 'https://github.com/saudzi',  
-  download_url = 'https://github.com/saudzi/quadratic-equation-saudzi/archive/0.2.tar.gz',   
+  download_url = 'https://github.com/saudzi/quadratic-equation-saudzi/archive/0.4.tar.gz',   
   keywords = ['quadratic''quadeq''equation'],  
   install_requires=[            
           
@@ -21,5 +21,6 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.8',
   ],
 )
