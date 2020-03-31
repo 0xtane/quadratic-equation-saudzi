@@ -5,7 +5,7 @@
 
 import cmath
 
-def quadeq():
+def quadeqinput():
 
     # cycles until a valid number is given to input and then places it in a
     # fills variables a , b and c required for solving the equation

@@ -1,2 +1,3 @@
-from quadratic-equation-saudzi import quadratic-equation-saudzi
-quaq.quadeq()
+from quadratic_saudzi import *
+
+quadeqinput()
