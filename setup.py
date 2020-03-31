@@ -8,11 +8,11 @@ setup(
   author = 'saba udzilauri',                  
   author_email = 'sabaxbox1@gmail.com',     
   url = 'https://github.com/saudzi',  
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/saudzi/quadratic-equation-saudzi/archive/0.1.tar.gz',   
   keywords = ['quadratic''quadeq''equation'],  
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[            
+          'cmath',
+          
       ],
   classifiers=[
     'Development Status :: 4 - Beta',     
