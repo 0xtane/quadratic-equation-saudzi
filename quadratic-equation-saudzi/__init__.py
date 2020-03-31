@@ -1,2 +1,2 @@
-import quadratic-equation-saudzi
+from quadratic-equation-saudzi.quadeq import quadeq
 import cmath

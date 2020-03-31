@@ -57,3 +57,37 @@ def quadeq():
 
     else :
         print("Discriminant is negative, thus we have no solutions")
+
+
+
+def quadeq(a,b,c):
+
+    # sees if numbers given to function are able to be parsed to float
+    # if not returns 0
+
+    try:
+        test = float(a) + float (b) + float (c)
+    except ValueError:
+        print("Please enter a valid number ( integer or a double )")
+        return 0
+
+    # calculate and print discriminant
+    d = (b**2)-(4*a*c)
+    print("Discriminant is: ",d)
+
+    # id discriminant is less than 0 then we have no solutions for the equation
+    if ( d>=0 ) :
+        #save solutions then print
+        solution1 = ((-b-cmath.sqrt(d))/(2*a)).real
+        solution2 = ((-b+cmath.sqrt(d))/(2*a)).real
+
+        if (solution1==solution2) :
+            print("your equation had only 1 solution and that being: ",solution1)
+        
+        else :
+            print("Solutions 1 and 2 respectively are: ",solution1," & ",solution2)
+        
+
+    else :
+        print("Discriminant is negative, thus we have no solutions")
+
