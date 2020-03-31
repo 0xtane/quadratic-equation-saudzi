@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'quadratic-equation-saudzi',         
   packages = ['quadratic-equation-saudzi'],   
-  version = '0.2',      
+  version = '0.3',      
   license='MIT',       
   description = 'just a simple tool to solve quadratic equations',  
   author = 'saba udzilauri',                  
@@ -11,7 +11,6 @@ setup(
   download_url = 'https://github.com/saudzi/quadratic-equation-saudzi/archive/0.2.tar.gz',   
   keywords = ['quadratic''quadeq''equation'],  
   install_requires=[            
-          'cmath',
           
       ],
   classifiers=[
